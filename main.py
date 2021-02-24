@@ -17,7 +17,7 @@ mixer.music.play(-1)
 
 # title and icon and bg
 pygame.display.set_caption("Corona killer")
-icon = pygame.image.load("hand-sanitizer.png")
+icon = pygame.image.load("images/hand-sanitizer.png")
 pygame.display.set_icon(icon)
 
 # player
