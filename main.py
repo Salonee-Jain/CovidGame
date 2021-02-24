@@ -11,7 +11,7 @@ pygame.init()
 screen = pygame.display.set_mode((800, 600))
 
 # background
-bg = pygame.image.load("new.png")
+bg = pygame.image.load("images/new.png")
 mixer.music.load("shoot.wav")
 mixer.music.play(-1)
 
@@ -21,7 +21,7 @@ icon = pygame.image.load("hand-sanitizer.png")
 pygame.display.set_icon(icon)
 
 # player
-player_img = pygame.image.load("antibacterial-gel.png")
+player_img = pygame.image.load("images/antibacterial-gel.png")
 ply_X = 370
 ply_Y = 480
 ply_X_change = 0
@@ -35,7 +35,7 @@ enemy_change_Y = []
 num_enemy = 6
 
 for i in range(num_enemy):
-    enemy_img.append(pygame.image.load("virus.png"))
+    enemy_img.append(pygame.image.load("images/virus.png"))
     enemy_X.append(random.randint(0, 735))
     enemy_Y.append(random.randint(30, 150))
     enemy_change_X.append(3)
@@ -44,7 +44,7 @@ for i in range(num_enemy):
 # bullet
 # ready-cant see bullet on screen
 # fire-bullet moving
-bullet_img = pygame.image.load("share.png")
+bullet_img = pygame.image.load("images/share.png")
 bullet_X = 0
 bullet_Y = 480
 bullet_change_X = 0
