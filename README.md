@@ -1,7 +1,3 @@
 # CovidGame
 
-#Run the main.py file
-
-#Use Space bar to hit the target
-
-#Use arrow keys to move your icon
+![corona](https://user-images.githubusercontent.com/65110262/109134143-c1bcf100-777b-11eb-8cf2-207fd630ffca.PNG)
